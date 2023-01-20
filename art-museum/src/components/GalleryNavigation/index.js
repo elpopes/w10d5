@@ -1,4 +1,5 @@
-function GalleryNavigation({galleries}) {
+function GalleryNavigation(prop) {
+  debugger;
   return <h1>Galleries</h1>;
 }
 
