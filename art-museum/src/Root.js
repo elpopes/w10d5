@@ -1,5 +1,5 @@
 import App from "./App";
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+import { BrowserRouter } from "react-router-dom";
 
 export function Root() {
   return (
