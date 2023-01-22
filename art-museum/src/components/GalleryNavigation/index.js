@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "./GalleryNavigation.css";
 
 // function GalleryNavigation({ records }) {
 //   return <nav>
@@ -8,6 +9,7 @@ import { NavLink } from "react-router-dom";
 function GalleryNavigation({ records }) {
   return (
     <nav>
+      <h1>Galleries</h1>
       <NavLink to={"/"}>
         HOME <br></br>
       </NavLink>
@@ -23,5 +25,3 @@ function GalleryNavigation({ records }) {
 }
 
 export default GalleryNavigation;
-
-
